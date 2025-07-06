@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import ladySmiling from "../assets/lady-smiling.jpg";
 
 const features = [
   {
@@ -16,8 +17,7 @@ const features = [
   {
     title: "Instant Payments",
     text: "Send money instantly, with just a few taps.",
-    image:
-      "./lady-smiling.jpg",
+    image: ladySmiling,
     logo: true,
   },
   {
