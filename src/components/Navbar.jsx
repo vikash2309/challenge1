@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="flex lg:flex-row gap-2 flex-col lg:p-2 items-center justify-center ">
         <div className="flex py-1 rounded-full px-3 lg:text-[12px] text-[7px] gap-1 border-1 border-white items-center lg:w-auto w-[50px] lg:h-[45px] lg:py-1 lg:px-0.5">
           <span
-            className={`cursor-pointer rounded-4xl px-1.5 py-1 transition-all duration-300 ${
+            className={`cursor-pointer rounded-4xl  px-1 lg:px-1.5 py-1 transition-all duration-300 ${
               lang === "DE"
                 ? "bg-white text-black font-medium"
                 : "bg-transparent text-white"
@@ -61,7 +61,7 @@ const Navbar = () => {
             DE
           </span>
           <span
-            className={`cursor-pointer rounded-4xl px-1.5 py-1 transition-all duration-300 ${
+            className={`cursor-pointer rounded-4xl  px-0.5 lg:px-1.5 py-1 transition-all duration-300 ${
               lang === "EN"
                 ? "bg-white text-black font-medium"
                 : "bg-transparent text-white"
@@ -71,7 +71,7 @@ const Navbar = () => {
             EN
           </span>
         </div>
-        <div className="rounded-full py-1 text-center md:text-[16px] text-[8px] gap-1 border-1 border-white items-center w-[50px] lg:w-auto lg:h-[45px] text-white lg:px-5 lg:py-2 cursor-pointer transition-all duration-300 hover:bg-white hover:text-black hover:scale-105 shadow-md hover:shadow-lg">
+        <div className="rounded-full py-2  text-center md:text-[16px] text-[8px] gap-1 border-1 border-white items-center w-[50px] lg:w-auto lg:h-[45px] text-white lg:px-5 lg:py-2 cursor-pointer transition-all duration-300 hover:bg-white hover:text-black hover:scale-105 shadow-md hover:shadow-lg">
           Sign in
         </div>
       </div>
