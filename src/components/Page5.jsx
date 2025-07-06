@@ -2,11 +2,11 @@ import React, { useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const cardImages = [
-  './card1.jpg',
-  './card2.jpg',
-  './card3.jpg',
-  './card4.jpg',
-  './card5.jpg',
+  '/card1.jpg',
+  '/card2.jpg',
+  '/card3.jpg',
+  '/card4.jpg',
+  '/card5.jpg',
 ];
 
 const Page5 = () => {
